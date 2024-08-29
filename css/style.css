@@ -10,6 +10,7 @@ body{
 }
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -30,11 +31,21 @@ button {
     cursor: pointer;
 }
 
+.timer{
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
 .controles{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 0 40px 0 40px;
+    margin: 20px 40px 0 40px;
     
 }
 
@@ -45,6 +56,11 @@ button {
     padding: 10px;
     font-size: 20px;
 }
+.start:hover{
+    background-color: #63db2b;
+    color: white;
+}
+
 .pause{
     background-color: #50c41a;
     color: white;
@@ -52,11 +68,20 @@ button {
     padding: 10px;
     font-size: 20px;
 }
+.pause:hover{
+    background-color: #63db2b;
+    color: white;
+}
 .reset{
     background-color: #50c41a;
     color: white;
     border-radius: 5px;
     padding: 10px;
     font-size: 20px;
-
 }
+.reset:hover{
+    background-color: #63db2b;
+    color: white;
+}
+
+

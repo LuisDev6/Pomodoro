@@ -5,7 +5,7 @@ function actualizarReloj() {
     const segundos = ahora.getSeconds().toString().padStart(2, '0');
     
     const tiempoActual = `${horas}:${minutos}:${segundos}`;
-    document.getElementById('reloj').textContent = tiempoActual;
+    document.getElementById('reloj').innerText = tiempoActual;
 }
 
 // Actualizar el reloj cada segundo

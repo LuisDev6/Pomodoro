@@ -99,3 +99,19 @@ button {
     font-size: 16px;
     margin-top: 10px;
 }
+
+@media  (min-width: 600px) {
+    .controles{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 20px 40px 0 40px;
+        
+    }
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin: 10px;
+    }
+}

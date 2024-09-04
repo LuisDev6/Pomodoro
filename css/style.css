@@ -20,11 +20,12 @@ main{
 }
 
 footer{
-    bottom: 0;
+    bottom: 10px;
     color: white;
     text-align: center;
     width: 100%;
     position: fixed;
+
 }
 
 button {

@@ -55,12 +55,12 @@ button {
 }
 .timer{
     display: flex;
-    color: rgb(40, 61, 252);
+    color: rgb(53, 219, 109);
     padding: 10px;
     font-size: 50px;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(40, 61, 252);
+    border: 1px solid rgb(53, 219, 109);
 }
 
 .controles{

@@ -77,10 +77,15 @@ button {
     border-radius: 5px;
     padding: 10px;
     font-size: 20px;
+    transition: transform 0.1s ease, background-color 0.1s ease;
 }
 .start:hover{
     background-color: #63db2b;
     color: white;
+}
+.start:active {
+    transform: scale(0.95);
+    background-color: #63db2b;
 }
 
 .pause{
@@ -89,21 +94,32 @@ button {
     border-radius: 5px;
     padding: 10px;
     font-size: 20px;
+    transition: transform 0.1s ease, background-color 0.1s ease;
 }
 .pause:hover{
     background-color: #63db2b;
     color: white;
 }
+.pause:active {
+    transform: scale(0.95);
+    background-color: #63db2b;
+}
+
 .reset{
     background-color: #50c41a;
     color: white;
     border-radius: 5px;
     padding: 10px;
     font-size: 20px;
+    transition: transform 0.1s ease, background-color 0.1s ease;
 }
 .reset:hover{
     background-color: #63db2b;
     color: white;
+}
+.reset:active {
+    transform: scale(0.95);
+    background-color: #63db2b;
 }
 .reloj-container {
     color: rgb(235, 118, 9);

@@ -13,3 +13,6 @@ setInterval(actualizarReloj, 1000);
 
 // Mostrar la hora inmediatamente al cargar la página
 actualizarReloj();
+
+
+// Iniciar el reloj
